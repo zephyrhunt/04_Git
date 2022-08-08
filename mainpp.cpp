@@ -9,6 +9,7 @@ int main()
 		i = i + 2;
 	else
 	    i = i + 4;
+	i++;
 	std::cout << "Hello, World!" << std::endl;
 
 	return 0;
