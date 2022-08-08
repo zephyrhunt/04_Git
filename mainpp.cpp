@@ -4,9 +4,12 @@ int main()
 {
 	int i = 0;
 	i = 1;
-	i = 3;
 
-	//error error
+	if(i == 1)
+		i = i + 2;
+	else
+	    i = i + 4;
+	i++;
 	std::cout << "Hello, World!" << std::endl;
 
 	return 0;
